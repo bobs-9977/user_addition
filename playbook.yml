@@ -1,0 +1,10 @@
+---
+- name: Setting up a remote user using custom collection
+  hosts:  rhelclient1.example.com
+  become: true
+  gather_facts: false
+
+  roles:
+    - role: test.new_collection.user
+      usr:  himzy
+      pswd: himzy
