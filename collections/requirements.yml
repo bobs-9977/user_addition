@@ -1,4 +1,4 @@
 ---
 collections:
   - name: test.new_collection
-    src:  https://192.168.182.154/api/galaxy/content/published/
+    src:  https://automationhub.example.com/api/galaxy/content/published/
